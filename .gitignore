@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+eval/
+pic/
+*.png
+checkpoints/
+output
+output_charts
+convlstm
+ga_cold_inference_no3hr.py
+ga_cold_inference_with3hr.py
+ga_search_adjust.py
+ga_search.py
+plot_matrics_ablation.py
+plot_matrics.py
+test.py
+xr.py
+使用ga搜尋結果
+比較_window
+比較_北半球
+比較_北半球_3時段
+raw_data

@@ -1,0 +1,15 @@
+[project]
+name = "so-cdm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cartopy>=0.25.0",
+    "dask>=2026.3.0",
+    "matplotlib>=3.10.9",
+    "netcdf4>=1.7.4",
+    "scikit-image>=0.26.0",
+    "scipy>=1.17.1",
+    "xarray>=2026.4.0",
+]
