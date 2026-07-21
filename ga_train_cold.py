@@ -22,62 +22,13 @@ LR              = 1e-4
 CHECKPOINT_DIR  = './checkpoints'
 SAVE_EVERY      = 10
 T               = 1000   # Cold Diffusion 總時間步數
- 
-# BEST_CONFIG = {
-#     'window_day'   : 5,
-#     'depth'        : 2,
-#     'base_channels': 128,
-#     'channel_mults': [1, 2],
-#     'in_steps'     : 40,    # 3 * 8
-#     'target_steps' : 24,    # 3 * 8
-# }
-# BEST_CONFIG = {
-#     'window_day'   : 6,
-#     'depth'        : 5,
-#     'base_channels': 128,
-#     'channel_mults': [1, 2, 2, 4, 4],
-#     'in_steps'     : 48,    # 3 * 8
-#     'target_steps' : 24,    # 3 * 8
-# }
-# BEST_CONFIG = {
-#     'window_day'   : 1,
-#     'depth'        : 2,
-#     'base_channels': 128,
-#     'channel_mults': [1, 2],
-#     'in_steps'     : 8,    # 3 * 8
-#     'target_steps' : 24,    # 3 * 8
-# }
-# BEST_CONFIG = {
-#     'window_day'   : 3,
-#     'depth'        : 4,
-#     'base_channels': 128,
-#     'channel_mults': [1, 1, 1, 1],
-#     'in_steps'     : 24,    # 3 * 8
-#     'target_steps' : 24,    # 3 * 8
-# }
-# BEST_CONFIG = {
-#     'window_day'   : 5,
-#     'depth'        : 2,
-#     'base_channels': 128,
-#     'channel_mults': [1, 2],
-#     'in_steps'     : 40,    # 3 * 8
-#     'target_steps' : 24,    # 3 * 8
-# }
 
-# BEST_CONFIG = {
-#     'window_day'   : 12,
-#     'depth'        : 3,
-#     'base_channels': 128,
-#     'channel_mults': [1, 2, 8],
-#     'in_steps'     : 96,    # 3 * 8
-#     'target_steps' : 24,    # 3 * 8
-# }
 BEST_CONFIG = {
-    'window_day'   : 5,
+    'window_day'   : 12,
     'depth'        : 3,
     'base_channels': 128,
     'channel_mults': [1, 2, 8],
-    'in_steps'     : 40,    # 3 * 8
+    'in_steps'     : 96,    # 3 * 8
     'target_steps' : 24,    # 3 * 8
 }
 
